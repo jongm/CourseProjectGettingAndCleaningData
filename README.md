@@ -14,7 +14,7 @@ The "subject" and "activity" datasets are column binded (cbind) to the "train" a
 A "tidy" dataset is created by row binding (rbind) the "train" and "test" datasets.
 
 ####Step 2
-The command (grep) is used to obtain the measurements that have mean and std in their names. The ids of these measurements along with ids 1 (subject) and 2 (activity) are used to indicate the columns of the final dataset.
+The command (grep) is used to obtain the measurements that have mean and std in their names. The indexes of these measurements along with indexes 1 (subject) and 2 (activity) are used to indicate the columns of the final dataset.
 
 ####Step 3
 The command (gsub) is used to replace the numbers 1 through 6 in "activity" with their respective activity names.
