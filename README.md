@@ -17,10 +17,10 @@ A "tidy" dataset is created by row binding (rbind) the "train" and "test" datase
 The command (grep) is used to obtain the measurements that have mean and std in their names. The ids of these measurements along with ids 1 (subject) and 2 (activity) are used to indicate the columns of the final dataset.
 
 ####Step 3
-The command (gsub) is used to replace the numbers 1 to 6 in "activity" for their respective activity names.
+The command (gsub) is used to replace the numbers 1 through 6 in "activity" with their respective activity names.
 
 ####Step 4
-The command (gsub) is used repeatedly to change the names of the measurements to something more readable
+The command (gsub) is used repeatedly to change the names of the measurements to something more readable.
 
 ####Step 5
 The last dataset containing the averages of the mean and the std across subjects and activities is created.
