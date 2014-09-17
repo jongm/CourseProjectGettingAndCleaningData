@@ -1,7 +1,7 @@
 CourseProjectGettingAndCleaningData
 ===================================
 
-##run_analysis script
+##run_analysis script description
 
 #### Data preparation:
 Seven datasets are loaded into R for the analysis. "train" and "test" contain the measurements data, "activity" contains the activity ID, "subject" contains the individual subjects ID, and "features" contains the column names of the measurements.
